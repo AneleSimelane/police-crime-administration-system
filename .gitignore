@@ -1,0 +1,19 @@
+# PHP & Dependencies
+vendor/
+composer.phar
+
+# Uploads & User Generated Files
+uploads/*
+!uploads/.gitkeep
+evidence/*
+!evidence/.gitkeep
+
+# Sensitive Config & Logs
+*.log
+.env
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
